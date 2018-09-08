@@ -8,15 +8,26 @@ COLORS:
  #bdc7d8	rgb(189,199,216)
 
 */
-$color-primary: #342c5c;        // rgb(52,44,92)     #342c5c
 $color-primary-light:  #67647d; // rgb(103,100,125)  #67647d
+$color-primary: #342c5c;        // rgb(52,44,92)     #342c5c
 $color-primary-dark: #272d50;   // rgb(39,45,80)     #272d50
+
 $color-accent-light:  #bdc7d8;  // rgb(189,199,216)  #bdc7d8
 $color-accent-dark: #10102c;    // rgb(16,16,44)     #10102c
 
+$color-secondary-light: #7b6781; // rgb(123,103,129)
+$color-secondary: #5b4262;       // rgb(91,66,98) 
+$color-secondary-dark: #40184a;  // rgb(64,24,74)
+
 $color-grey-dark: #777;
+$color-grey-light-1: #f7f7f7;
+$color-grey-lighter: #eee;
+
 $color-white: #fff;
 $color-black: #000;
+
+// FONTS
+$default-font-size: 1.6rem;
 
 // GRID
 $grid-width: 114rem;

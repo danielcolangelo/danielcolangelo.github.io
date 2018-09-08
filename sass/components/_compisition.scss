@@ -1,0 +1,38 @@
+.compisition {
+    position: relative;
+
+    &__photo {
+        width: 55%;
+        box-shadow: 0 1.5rem 4rem rgba($color-black, .4);
+        border-radius: 4px;
+        position: absolute;
+        z-index: 1;
+        transition: all .3s;
+
+        &--1 {
+            left: 0;
+            top: -2rem;
+        }
+
+        &--2 {
+            right: 0;
+            top: 2rem;
+        }
+
+        &--3 {
+            left: 20%;
+            top: 10rem;
+        }
+
+        &:hover {
+            transform: scale(1.25) translateY(-1rem);
+            box-shadow: 0 2.5rem 5rem rgba($color-black, .6);
+            z-index: 2;
+        }
+    }
+
+    &:hover &__photo:not(:hover) {
+        transform: scale(.95);
+    }
+
+}
