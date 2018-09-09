@@ -99,6 +99,9 @@ body {
 .util-margin-bottom-sm {
   margin-bottom: 1.5rem; }
 
+.util-margin-top-lg {
+  margin-top: 8rem; }
+
 .header {
   position: relative;
   height: 95vh;
@@ -170,6 +173,13 @@ body {
   .btn--white::after {
     background-color: #fff; }
   .btn--white::after:hover {
+    transform: translateY(-0.3rem); }
+.btn--dark {
+  background-color: #342c5c;
+  color: #fff; }
+  .btn--dark::after {
+    background-color: #342c5c; }
+  .btn--dark::after:hover {
     transform: translateY(-0.3rem); }
 .btn::after {
   content: "";
@@ -264,6 +274,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden; }
     .card__side--front {
       background-color: #fff;
@@ -289,9 +300,9 @@ body {
     .card__picture--1 {
       background-image: linear-gradient(to bottom right, #7b6781, #342c5c), url(../img/nat-5.jpg); }
     .card__picture--2 {
-      background-image: url(..img/nat-5.jpg); }
+      background-image: linear-gradient(to bottom right, #5b4262, #342c5c), url(../img/nat-6.jpg); }
     .card__picture--3 {
-      background-image: url(..img/nat-5.jpg); }
+      background-image: linear-gradient(to bottom right, #40184a, #342c5c), url(../img/nat-7.jpg); }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
@@ -308,6 +319,10 @@ body {
     box-decoration-break: clone; }
     .card__heading-span--1 {
       background-image: linear-gradient(to right bottom, rgba(123, 103, 129, 0.85), rgba(52, 44, 92, 0.85)); }
+    .card__heading-span--2 {
+      background-image: linear-gradient(to right bottom, rgba(91, 66, 98, 0.85), rgba(52, 44, 92, 0.85)); }
+    .card__heading-span--3 {
+      background-image: linear-gradient(to right bottom, rgba(64, 24, 74, 0.85), rgba(52, 44, 92, 0.85)); }
   .card__details {
     padding: 3rem; }
     .card__details ul {
@@ -325,9 +340,50 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
+  .card__price-box {
+    text-align: center;
+    margin-bottom: 8rem;
+    color: #fff; }
+  .card__price-only {
+    font: 1.4rem;
+    text-transform: uppercase; }
   .card__price-vlaue {
     font-size: 6rem;
     font-weight: 100; }
+
+.review {
+  width: 75%;
+  margin: 0 auto;
+  padding: 6rem;
+  padding-left: 9rem;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: .3rem;
+  font-size: 1.6rem;
+  transform: skewX(-12deg); }
+  .review__shape {
+    width: 15rem;
+    height: 15rem;
+    float: left;
+    position: relative;
+    -webkit-shape-outside: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    transform: translateX(-3rem) skewX(12deg); }
+  .review__image {
+    height: 100%; }
+  .review__text {
+    transform: skewX(12deg); }
+  .review__caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    text-align: center; }
 
 .section-about {
   background-color: #f7f7f7;
@@ -346,5 +402,9 @@ body {
 
 .section-tours {
   background-color: #f7f7f7;
-  padding: 25rem 0 50rem 0;
+  padding: 25rem 0 15rem 0;
   margin-top: -11rem; }
+
+.section-review {
+  padding: 15rem 0;
+  background-color: #f7f7f7; }

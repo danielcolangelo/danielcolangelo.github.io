@@ -39,6 +39,19 @@
         }
     }
 
+    &--dark {
+        background-color: $color-primary;
+        color: $color-white;
+
+        &::after {
+            background-color: $color-primary;
+        }
+
+        &::after:hover {
+            transform: translateY(-.3rem)
+        }
+    }
+
     &::after {
         content: "";
         display: inline-block;
