@@ -16,7 +16,7 @@
     <body>
         <header class="header">
             <div class="header__logo-box">
-                <img class="header__logo" src="img/logo-white.png" alt="logo">
+                <img class="header__logo" src="img/logo-1x.png" alt="logo">
             </div>
             <div class="header__text-box">
                 <h1 class="heading-primary">
@@ -230,19 +230,25 @@
                     </div>
                 </div>
 
-                <div class="util-center-text u-margin-top-lg">
+                <div class="util-center-text util-margin-top-lg">
                     <a href="#" class="btn btn--dark">contact me</a>
                 </div>
                 
             </section>
 
             <section class="section section-review">
+                <div class="bg-video">
+                    <video class="bg-video__content" autoplay muted loop>
+                        <source src="img/video.mp4" type="video/mp4">
+                        <source src="img/video.webm" type="video/webm">
+                        Your browser is not supported!
+                    </video>
+                </div>
                 <div class="util-center-text util-margin-bottom-lg">
                     <h2 class="heading-secondary">
                         Lorem ipsum dolor sit amet.
                     </h2>
                 </div>
-
                 <div class="row">
                     <div class="review">
                         <figure class="review__shape">
@@ -257,8 +263,81 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="row">
+                    <div class="review">
+                        <figure class="review__shape">
+                            <img class="review__image" src="img/nat-9.jpg" alt="review photo">
+                            <figcaption class="review__caption">John Doe</figcaption>
+                        </figure>
+                        <div class="review__text">
+                            <h3 class="heading-tertiary util-margin-bottom-sm">
+                                Lorem ipsum dolor sit amet.
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam voluptatum molestias repellat accusantium beatae illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, delectus! Lorem ipsum, dolor sit amet consectetur adipisicing. Lorem ipsum dolor sit amet consectetur elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="util-center-text util-margin-top-lg">
+                    <a href="#" class="btn-text">Learn More &rarr;</a>
+                </div>
+            </section>
+
+            <section class="section-contact">
+                <div class="row">
+                    <div class="contact">
+                        <div class="contact__form">
+                            <form class="form" action="#">
+                                <div class="util-margin-bottom-md">
+                                    <h2 class="heading-secondary">
+                                        Contact Me
+                                    </h2>
+                                </div>
+                                <div class="form__group">
+                                    <input  id="name" class="form__input" type="text" placeholder="Full Name" required>
+                                    <label class="form__label" for="name">Full Name</label>
+                                </div>
+
+                                <div class="form__group">
+                                    <input  id="email" class="form__input" type="email" placeholder="Email Address" required>
+                                    <label class="form__label" for="email">Email Address</label>
+                                </div>
+                                <div class="form__group">
+                                    <button class="btn btn--dark">Contact Me &rarr;</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </section>
         </main>
+
+        <footer class="footer">
+            <div class="footer__logo-box">
+                <img src="img/logo-2x.png" alt="full logo" class="footer__logo">
+            </div>
+            <div class="row">
+                <div class="col-1-of-2">
+                    <div class="footer__navigation">
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="#" class="footer__link">Company</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Contact</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">My Work</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Privacy Policy</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-1-of-2">
+                    <p class="footer__copyright">
+                        Built by <a href="#" class="footer__link">Daniel Colangelo</a>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, porro.
+                        Copyright &copy; by Daniel Colangelo
+                    </p>
+                </div>
+            </div>
+
+        </footer>
 
         <!-- GRID TEST SECTION
         <section class="grid-test">
