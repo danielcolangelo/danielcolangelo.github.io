@@ -6,6 +6,16 @@
 
 html {
     font-size: 62.5%; // this is the global setting for 1 rem
+
+    @include respond(tab-port) {
+        font-size: 50%;
+    }
+    @include respond(tab-land) {
+        font-size: 56.25%;
+    }
+    @include respond(desktop) {
+        font-size: 75%;
+    }
 }
 
 body {
