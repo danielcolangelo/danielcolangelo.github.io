@@ -228,6 +228,7 @@ body {
   background-color: #272d50;
   padding: 10rem 0;
   font-size: 1.4rem;
+  margin-top: -1px;
   color: #f7f7f7; }
   @media (max-width: 56.25em) {
     .footer {
