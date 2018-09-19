@@ -10,11 +10,15 @@
         font-family: inherit;
         color: inherit;
         border-radius: .2rem;
-        background-color: rgba($color-white, $alpha: .5);
+        background-color: rgba($color-white, $alpha: .8);
         border: none;
         border-bottom: .3rem solid transparent;
         width: 90%;
         display: block;
+
+        @include respond(tab-port) {
+            width: 100%;
+        }
 
         &:focus {
             outline: none;

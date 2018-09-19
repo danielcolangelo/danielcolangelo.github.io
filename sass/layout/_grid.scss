@@ -11,8 +11,13 @@
     }
 
     @include respond(tab-port) {
-        max-width: 50rem;
+        max-width: 60rem;
         padding: 0 3rem;
+    }
+
+    @include respond(sm-phone) {
+        max-width: 70rem;
+        padding: 0 1.5rem;
     }
 
     @include clear-fix;
