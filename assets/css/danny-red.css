@@ -220,7 +220,7 @@ a {
     box-shadow: none;
     text-transform: uppercase;
     outline: none !important;
-    background-color: #5ac24e;
+    background-color: #fd735a;
     box-shadow: 0px 10px 40px 0px rgba(0,0,0,0.2);
     border-radius: 2px;
     min-width: 140px;
@@ -331,7 +331,7 @@ a {
 }
 
 .badge-dark {
-    background: #5ac24e !important;
+    background: #fd735a !important;
 }
 
 
@@ -502,7 +502,7 @@ a {
 
 .navbar-nav .nav-link.active {
     opacity: 1;
-    color: #5ac24e !important;
+    color: #fd735a !important;
 }
 
 .nav-wrapper {
@@ -522,7 +522,7 @@ a {
 .section-home {
     height: 100vh;
     position: relative;
-    background-image: url("../images/slider3.jpg");
+    background-image: url("../images/bg_1.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -807,7 +807,7 @@ a {
 }
 
 .about-desc-social li a:hover {
-    color: #5ac24e;
+    color: #fd735a;
 }
 
 /* ---------------------------------------------- 
@@ -907,7 +907,7 @@ a {
 }
 
 .swiper-pagination-bullet {
-    background-color: #5ac24e;
+    background-color: #fd735a;
 }
 
 /* ---------------------------------------------- 
@@ -1046,7 +1046,7 @@ a {
          -o-transform: rotate3d(0, 1, 0, 180deg);
             transform: rotate3d(0, 1, 0, 180deg);
     z-index: 1;
-    background: #5ac24e;
+    background: #fd735a;
     -webkit-transform-style: inherit;
     -moz-transform-style: inherit;
     -ms-transform-style: inherit;
@@ -1142,7 +1142,7 @@ a {
 }
 
 .progress-bar {
-    background: #5ac24e !important;
+    background: #fd735a !important;
     opacity: 0.8;
 }
 
@@ -1315,7 +1315,7 @@ a {
 }
 
 .swiper-pagination-progressbar-fill {
-    background-color: #5ac24e !important;
+    background-color: #fd735a !important;
 }
 
 .blog-cat {
@@ -1357,10 +1357,10 @@ h4.media-heading {
 .blog-detail-content blockquote {
     font-size: 14px;
     background: #f9f9f9;
-    border-color: #5ac24e;
+    border-color: #fd735a;
     padding: 5px 10px;
     border-radius: 4px;
-    border-left: 5px solid #5ac24e;
+    border-left: 5px solid #fd735a;
 }
 
 .blog-detail-content img {
@@ -1397,7 +1397,7 @@ h4.media-heading {
     padding: 3px 15px;
     color: #fff;
     text-transform: capitalize;
-    background: #5ac24e;
+    background: #fd735a;
     border-radius: 2px;
     margin: 15px 0;
 }
@@ -1429,7 +1429,7 @@ h4.media-heading {
 }
 
 .tags:hover {
-    background-color: #5ac24e;
+    background-color: #fd735a;
     color: #ffffff;
 }
 
@@ -1460,7 +1460,7 @@ h4.media-heading {
 }
 
 .blog-nav:hover {
-    background: #5ac24e;
+    background: #fd735a;
     color: #fff;
 }
 
